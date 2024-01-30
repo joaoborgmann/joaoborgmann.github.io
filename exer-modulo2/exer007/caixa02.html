@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            background-color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    header{
+        background-color: beige;
+        padding: 10px;
+        margin: 10px;
+    }
+    nav{
+        background-color: rgba(180, 178, 178, 0.584);
+        padding: 3px;
+        box-shadow: -1px 4px 0px 3px rgba(0, 0, 0, 0.331);
+
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    main{
+        background-color: beige;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+
+    }
+    article{
+        background-color: rgb(162, 162, 140);
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 0px;
+    }
+    aside{
+        background-color: azure;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+    }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Esportes politica e tecnologia</p>
+        </section>
+            <article>
+                <h2>Noticias urgente</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt quas laudantium illo? Facilis consequuntur, eius, reiciendis laborum culpa cupiditate saepe vero a soluta, labore pariatur maiores perspiciatis atque dolorum?</p>
+                <aside>Artigo escrito pelo João</aside>
+            </article>
+    </main>
+    <footer> 
+        <p>Desenvolvido pelo João
+        </p>
+        </footer>
+    <div id="bola"></div>
+</body>
+</html>
